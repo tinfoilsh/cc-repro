@@ -1,0 +1,7 @@
+# Client-side benchmark deps. torch + vLLM come from the base image / your env
+# (vLLM 0.21.0 is required to serve the Kimi NVFP4 MoE preset — see the Dockerfile).
+guidellm==0.6.0
+openai
+httpx
+pandas
+datasets
